@@ -185,7 +185,7 @@ function HeroSection({ scrollToSection }: { scrollToSection: (id: string) => voi
       {/* Full Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/images/hero_portrait.jpg" 
+          src="./images/hero_portrait.jpg" 
           alt="" 
           className="w-full h-full object-cover"
         />
@@ -195,7 +195,7 @@ function HeroSection({ scrollToSection }: { scrollToSection: (id: string) => voi
       {/* Brain Illustration - Top Right */}
       <div className="absolute -top-40 right-0 translate-x-1/3 w-[700px] lg:w-[900px] h-[700px] lg:h-[900px] opacity-[0.25] z-10 pointer-events-none">
         <img 
-          src="/images/brain_hero.png" 
+          src="./images/brain_hero.png" 
           alt="" 
           className="w-full h-full object-contain"
         />
@@ -408,19 +408,19 @@ function ServicesSection() {
 
   const services = [
     {
-      image: '/images/service_therapy.jpg',
+      image: './images/service_therapy.jpg',
       title: 'Konsultacje psychologiczne',
       description: 'Indywidualne spotkania, podczas których wspólnie eksplorujemy Twoje potrzeby, wyzwania i cele. Pierwszy krok do zmiany.',
       icon: Brain,
     },
     {
-      image: '/images/service_nature.jpg',
+      image: './images/service_nature.jpg',
       title: 'Terapia indywidualna',
       description: 'Regularna praca nad głębszymi wzorami, emocjami i przekonaniami. Proces transformacji prowadzący do trwałych zmian.',
       icon: Heart,
     },
     {
-      image: '/images/service_growth.jpg',
+      image: './images/service_growth.jpg',
       title: 'Rozwój osobisty',
       description: 'Coaching i wsparcie w realizacji celów, budowaniu pewności siebie i odkrywaniu własnego potencjału.',
       icon: Sparkles,
@@ -514,14 +514,14 @@ function ProcessSection() {
       title: 'Pierwsze spotkanie',
       subtitle: 'Poznanie Twoich potrzeb',
       description: 'Na pierwszej konsultacji skupiamy się na poznaniu Ciebie, Twojej sytuacji i tego, co chcesz zmienić. To czas, abyśmy mogli ustalić, jak mogę Ci najlepiej pomóc.',
-      image: '/images/process_1.jpg',
+      image: './images/process_1.jpg',
     },
     {
       number: '02',
       title: 'Proces terapeutyczny',
       subtitle: 'Praca nad zmianą',
       description: 'Wspólnie pracujemy nad głębszym zrozumieniem Twoich wzorów, emocji i przekonań. To proces, który wymaga zaangażowania, ale prowadzi do trwałych zmian.',
-      image: '/images/process_2.jpg',
+      image: './images/process_2.jpg',
     },
   ]
 
