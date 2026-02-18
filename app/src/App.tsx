@@ -15,6 +15,8 @@ import {
   ChevronRight
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import BreathingSection from '@/components/BreathingSection'
+import StepsSection from '@/components/StepsSection'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -148,6 +150,12 @@ function App() {
       
       {/* Quote Section */}
       <QuoteSection />
+      
+      {/* Breathing Animation Section */}
+      <BreathingSection />
+      
+      {/* Steps Section */}
+      <StepsSection />
       
       {/* Services Section */}
       <ServicesSection />
